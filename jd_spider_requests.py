@@ -1,3 +1,6 @@
+#! /usr/bin/python
+# coding=utf-8
+
 import random
 import time
 import requests
@@ -101,7 +104,7 @@ class QrLogin:
     """
     扫码登录
     """
-    def __init__(self, spider_session: SpiderSession):
+    def __init__(self, spider_session):
         """
         初始化扫码登录
         大致流程：

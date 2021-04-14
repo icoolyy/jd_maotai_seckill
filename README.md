@@ -115,7 +115,11 @@
 #### 5.抢购结果确认 
 抢购是否成功通常在程序开始的一分钟内可见分晓！  
 搜索日志，出现“抢购成功，订单号xxxxx"，代表成功抢到了，务必半小时内支付订单！程序暂时不支持自动停止，需要手动STOP！  
-若两分钟还未抢购成功，基本上就是没抢到！程序暂时不支持自动停止，需要手动STOP！  
+若两分钟还未抢购成功，基本上就是没抢到！程序暂时不支持自动停止，需要手动STOP！
+
+#### 6. docker 运行main.py
+
+docker run -it --rm --name jd-k40 -v /Users/icoolyy/fancy/jd_maotai_seckill:/usr/src/myapp -w /usr/src/myapp python:3.9-slim python main.py
 
 ## 打赏
 不用再打赏了，抢到茅台的同学请保持这份喜悦，没抢到的继续加油 :)  
